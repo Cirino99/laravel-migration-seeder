@@ -8,7 +8,6 @@
     <ul>
         @foreach ($trains as $train)
             <li>
-                {{-- {{dd($train)}} --}}
                 {{$train['Azienda']}} -- {{$train['Stazione di partenza']}} -- {{$train['Stazione di arrivo']}} -- {{$train['Orario di partenza']}} -- {{$train['Orario di arrivo']}} -- {{$train['Codice Treno']}} -- {{$train['Numero Carrozze']}} -- {{$train['In orario']}} -- {{$train['Cancellato']}}
             </li>
         @endforeach
